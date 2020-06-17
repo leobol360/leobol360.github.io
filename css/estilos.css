@@ -1,4 +1,68 @@
-header {
-    background: pink;    
+body {
+    font-family: 'Source Sans Pro', sans-serif;    
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    /*font-style: italic;*/
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1,5;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+    color: white;
+}
+h1 strong{
+    color: #5084a9;
+}
+
+.header{
+    background-color: #0d060d;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    height: 300px;
+    background-image: url('../Images/LogoReactOp.jpg');
+    background-color: #000;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    }
+
+.experience{
+/*    border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid navy;
+    border-bottom: 10px solid blue;*/
+
+    /* border-top-color: red;
+    border-width: 15px;
+    border-style: solid;*/
+ border: 1px solid gray;
+ border-radius: 10px;
+ border-top-left-radius: 20px;
+}    
+
+.experience-details {
+    width: 500px;
+}
+
+.experience-imagecontainer{
+    width: 500px;
+}
+
+
 

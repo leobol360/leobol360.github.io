@@ -4,15 +4,16 @@
         <meta charset="UTF-8"/>
         <title>Oscar Pineda</title>
         <link rel="icon" type="image/png" href="images/Op.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Sans+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="images/LogoLink.png" alt="logo OscarPineda.github.io">
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ol>
                         <li>
                             <a class="link" href="#portafolio">portafolio</a>
@@ -27,56 +28,61 @@
                 </nav>                
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1>
-                Oscar Leonardo Pineda 
-                <br/> JavaScript Developer
+                <strong> Oscar Leonardo Pineda </strong>  
+                <br/> <strong>React</strong> Developer
                 <br/> Pasion Por el Desarrollo
             </h1>
-            <img src="images/LogoReactOp.jpg" width="500" height="300" alt="imagen Principal del Sitio">
+            <!-- <img src="images/LogoReactOp.jpg" width="500" height="300" alt="imagen Principal del Sitio"> -->
         </section>
-        <section>
-            <h2><strong>PERFIL</strong></h2>
-            <p>
+        <section class="profile">
+            <h2 class="profile-title"><strong>PERFIL</strong></h2>
+            <p class="profile-description">
                 Estudiante de octavo semestre de ingeniería de sistemas, responsable honesto y exigente con las labores que se me asignan, colaborador y ágil, con excelente trabajo en equipo para realizar cualquier tipo de actividad, autodidacta y facilidad en el aprendizaje, pasión por el desarrollo de software y motivación por el uso de nuevas tendencias y técnicas de optimización.
             </p>
-            <img src="images/fotohv.jpg" alt="foto presentacion" width="160">
+            <img class="profile-image" src="images/fotohv.jpg" alt="foto presentacion" width="160">
         </section>
-        <section id="experiencia">
-            <h2>EXPERIENCIA LABORAL</h2>
-            <article>
-                <figure>
-                    <img/>
+        <section id="experiencia" class="portfolio">
+            <h2 class="experience-title"> EXPERIENCIA LABORAL</h2>
+            <article class="experience">
+                <div class="experience-details">
+                    <h3 class="experience_entity">Fundación Neurologica “Neuroconexion IPS”</h3>
+                    <a class="experience-url" href="https://neuroconexion.co/inicio" target="_blank">sitio de Neuroconexion</a>
+                    <p class="experience-description">
+                        Evaluar software y hardware existentes en la entidad, Implementacion y administración de nuevas herramientas tecnológicas, administración bases de datos, control y mantenimientos servidores (telefonía, informacion).
+                    </p>
+                </div>
+                <figure class="experience-imagecontainer">
+                    <img class="experience-image" src="images/neuroconexion.png" alt="logo neuroconexion"/>
                 </figure>
-                <h3>Fundación Neurologica “Neuroconexion IPS”</h3>
-                <p>
-                    Evaluar software y hardware existentes en la entidad, Implementacion y administración de nuevas herramientas tecnológicas, administración bases de datos, control y mantenimientos servidores (telefonía, informacion).
-                </p>
-                <a href="https://neuroconexion.co/inicio" target="_blank">sitio de Neuroconexion</a>
+
             </article>
-            <article>
-                <figure>
-                    <img/>
+            <article class="experience">
+                <div class="experience-details">
+                    <h3 class="experience_entity"> Fundación Vida y Salud Solidaria “Fundasalud IPS”</h3>
+                    <p class="experience-description">
+                        Evaluar software y hardware existentes en la entidad, recomendar la adquisición de los mismos para el desarrollo del plan estratégico de sistematización, implementacion e instalación de redes, generación y depuración de informes, administración de la base de datos y servidores de la entidad, generar y plantear plan de mantenimiento preventivo y correctivo así como también la ejecución de copias de seguridad, Administración y coordinación de planes de trabajo para el área de sistemas y el área de digitación. Administración, mantenimiento y monitoreo del sistema de cámaras de seguridad y plantas telefónicas, control y manejo de inventarios, controlar salidas y entradas de mercancía a la bodega de sistemas, entre otras funciones asignadas o solicitadas por las diferentes áreas de la empresa.
+                    </p>
+                    <a class="experience-url" href="http://fundasaludipsenliquidacion.com/" target="_blank">sitio de Fundasalud</a>
+                </div>
+                <figure class="experience-imagecontainer">
+                    <img class="experience-image" src="images/fundasalud.png" alt="logo fundasalud"/>
                 </figure>
-                <h3>Fundación Vida y Salud Solidaria “Fundasalud IPS”</h3>
-                <p>
-                    Evaluar software y hardware existentes en la entidad, recomendar la adquisición de los mismos para el desarrollo del plan estratégico de sistematización, implementacion e instalación de redes, generación y depuración de informes, administración de la base de datos y servidores de la entidad, generar y plantear plan de mantenimiento preventivo y correctivo así como también la ejecución de copias de seguridad, Administración y coordinación de planes de trabajo para el área de sistemas y el área de digitación. Administración, mantenimiento y monitoreo del sistema de cámaras de seguridad y plantas telefónicas, control y manejo de inventarios, controlar salidas y entradas de mercancía a la bodega de sistemas, entre otras funciones asignadas o solicitadas por las diferentes áreas de la empresa.
-                </p>
-                <a href="http://fundasaludipsenliquidacion.com/" target="_blank">sitio de Fundasalud</a>
             </article>
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h1>Portafolio de Aplicaciones</h1>
         </section>
-        <section id="contacto">
-            <form action="/suscripcion/">
-                <h3>Creemos Algo Juntos</h3>
+        <section id="contacto" class="contact">
+            <form class="contact-form" action="/suscripcion/">
+                <h3 class="contact-title">Creemos Algo Juntos</h3>
                 <label for="Email">Dejame tu Email</label>
                 <input type="text" placeholder="Dejame tu Email" id="Email">
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
 
     </body>
 </html>
