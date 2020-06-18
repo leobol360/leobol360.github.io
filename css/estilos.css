@@ -1,5 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;    
+    margin: 0;
 }
 
 h1,
@@ -19,14 +20,18 @@ h1{
     letter-spacing: -.2px;
     text-transform: uppercase;
     color: white;
+    margin: 100px 150px 70px 30px;
 }
 h1 strong{
     color: #5084a9;
 }
 
+
 .header{
     background-color: #0d060d;
     color: white;
+
+
 }
 
 .header a{
@@ -42,18 +47,26 @@ h1 strong{
     background-position-x: right;
     }
 
-.experience{
-/*    border-top: 10px solid red;
-    border-right: 10px solid green;
-    border-left: 10px solid navy;
-    border-bottom: 10px solid blue;*/
+.profile{
 
-    /* border-top-color: red;
-    border-width: 15px;
-    border-style: solid;*/
+ 
+}
+
+.profile-title{
+
+}
+
+.profile-description{
+    width: 500px;
+}
+
+.experience{
  border: 1px solid gray;
- border-radius: 10px;
- border-top-left-radius: 20px;
+ border-radius: 20px;
+ padding: 20px;
+ margin: 10px;
+ margin-bottom: 15px;
+ background: white;
 }    
 
 .experience-details {
@@ -62,6 +75,11 @@ h1 strong{
 
 .experience-imagecontainer{
     width: 500px;
+}
+
+.portfolio{
+    background: #fafafa;
+
 }
 
 
