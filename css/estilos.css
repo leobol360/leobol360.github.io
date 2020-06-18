@@ -11,7 +11,6 @@ h5,
 h6{
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-    /*font-style: italic;*/
 }
 
 h1{
@@ -30,14 +29,20 @@ h1 strong{
 .header{
     background-color: #0d060d;
     color: white;
-
-
+    display: flex;
 }
 
 .header a{
     color: white;
     text-decoration: none;
+    
 }
+
+.menu{
+    
+
+}
+
 .hero{
     height: 300px;
     background-image: url('../Images/LogoReactOp.jpg');
@@ -47,13 +52,19 @@ h1 strong{
     background-position-x: right;
     }
 
-.profile{
-
- 
+.studies{
+    background: #fafafa;
 }
 
-.profile-title{
+.training{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background: white;
+    margin: 10px;
+}
 
+.training-entity    {
+    font-style: italic;
 }
 
 .profile-description{
@@ -67,6 +78,8 @@ h1 strong{
  margin: 10px;
  margin-bottom: 15px;
  background: white;
+ display: flex;
+ justify-content: space-between;
 }    
 
 .experience-details {
@@ -79,7 +92,6 @@ h1 strong{
 
 .portfolio{
     background: #fafafa;
-
 }
 
 
