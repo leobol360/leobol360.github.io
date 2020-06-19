@@ -19,42 +19,66 @@ h1{
     letter-spacing: -.2px;
     text-transform: uppercase;
     color: white;
-    margin: 100px 150px 70px 30px;
+    margin: 0;
 }
 h1 strong{
     color: #5084a9;
 }
 
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+margin: 0;
+}
 
 .header{
-    background-color: #0d060d;
+    background-color: #000;
     color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
 }
 
 .header a{
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;  
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
-.menu{
-    
+.header ol{
+    display: flex;
+    height: inherit;
+}
 
+.header ol li{
+    height: inherit;
 }
 
 .hero{
-    height: 300px;
+    height: 280px;
     background-image: url('../Images/LogoReactOp.jpg');
     background-color: #000;
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
+    padding: 20px;
     }
 
 .studies{
     background: #fafafa;
 }
+
 
 .training{
     border: 1px solid gray;
@@ -67,8 +91,27 @@ h1 strong{
     font-style: italic;
 }
 
+.profile{
+    background: #fafafa;
+}
+
+.profile-image{
+    margin: 20px;
+
+}
+
 .profile-description{
     width: 500px;
+    margin: 20px;
+}
+
+.profile-parts{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
 }
 
 .experience{
@@ -79,7 +122,6 @@ h1 strong{
  margin-bottom: 15px;
  background: white;
  display: flex;
- justify-content: space-between;
 }    
 
 .experience-details {
@@ -94,5 +136,17 @@ h1 strong{
     background: #fafafa;
 }
 
+.footer{
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-
+.footer img{
+    vertical-align: middle;
+}
