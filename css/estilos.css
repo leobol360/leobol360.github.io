@@ -11,6 +11,7 @@ h5,
 h6{
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
+    margin: 0;
 }
 
 h1{
@@ -23,6 +24,14 @@ h1{
 }
 h1 strong{
     color: #5084a9;
+}
+
+h2 {
+    color: #5084a9;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;  
+    font-weight: bold;
+    font-size: 20px;
 }
 
 ol,
@@ -73,18 +82,23 @@ margin: 0;
     display: flex;
     align-items: center;
     padding: 20px;
+    padding-top: 0;
     }
 
 .studies{
     background: #fafafa;
 }
 
+.studies-title{
+    padding: 20px;
+}
 
 .training{
     border: 1px solid gray;
     border-radius: 20px;
     background: white;
     margin: 10px;
+    margin-bottom: 0;
 }
 
 .training-entity    {
@@ -95,13 +109,17 @@ margin: 0;
     background: #fafafa;
 }
 
+.profile-title{
+    padding: 20px;
+}
+
 .profile-image{
     margin: 20px;
 
 }
 
 .profile-description{
-    width: 500px;
+    width: 700px;
     margin: 20px;
 }
 
@@ -110,8 +128,11 @@ margin: 0;
     border-radius: 20px;
     background: white;
     margin: 10px;
+    margin-bottom: 0;
     padding: 20px;
     display: flex;
+    justify-content: center;
+
 }
 
 .experience{
@@ -119,21 +140,48 @@ margin: 0;
  border-radius: 20px;
  padding: 20px;
  margin: 10px;
- margin-bottom: 15px;
+ margin-bottom: 0px;
  background: white;
  display: flex;
-}    
+ justify-content: space-between;
+ align-items: center;
+} 
+
+.experience-title{
+    padding: 20px;
+}
 
 .experience-details {
-    width: 500px;
+    width: 800px;
+}
+
+.experience-entity {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
 }
 
 .experience-imagecontainer{
-    width: 500px;
+    width: 400px;
+}
+
+.experience-description,
+.experience-url{
+    margin: 5px;
+}
+.experience-date{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .portfolio{
     background: #fafafa;
+}
+
+.portfolio-title{
+    padding: 20px;
 }
 
 .footer{
