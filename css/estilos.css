@@ -36,8 +36,6 @@ h2 {
 
 ol,
 ul{
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
@@ -72,18 +70,27 @@ margin: 0;
     height: inherit;
 }
 
+.menu-list{
+    margin: 0;
+    padding: 0;
+}
 .hero{
     height: 280px;
-    background-image: url('../Images/LogoReactOp.jpg');
+    /* background-image: url('../Images/LogoReactOp.jpg'); */
     background-color: #000;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
+/*     background-size: 500px 300px; */
+/*     background-repeat: no-repeat; */
     background-position-x: right;
     display: flex;
     align-items: center;
     padding: 20px;
     padding-top: 0;
-    }
+    justify-content: space-between;
+}
+
+.hero-image{
+    object-fit: cover;
+}
 
 .studies{
     background: #fafafa;
@@ -93,12 +100,20 @@ margin: 0;
     padding: 20px;
 }
 
+.studies-list{
+    list-style-type: disc;
+}
+
 .training{
     border: 1px solid gray;
     border-radius: 20px;
     background: white;
     margin: 10px;
     margin-bottom: 0;
+}
+
+.training-details a{
+    padding-left: 10px;
 }
 
 .training-entity    {
@@ -121,6 +136,7 @@ margin: 0;
 .profile-description{
     width: 700px;
     margin: 20px;
+    text-align: justify;
 }
 
 .profile-parts{
@@ -131,8 +147,6 @@ margin: 0;
     margin-bottom: 0;
     padding: 20px;
     display: flex;
-    justify-content: center;
-
 }
 
 .experience{
@@ -164,11 +178,13 @@ margin: 0;
 
 .experience-imagecontainer{
     width: 400px;
+    padding: 10px;
 }
 
 .experience-description,
 .experience-url{
     margin: 5px;
+    text-align: justify;
 }
 .experience-date{
     margin: 0;
@@ -184,6 +200,67 @@ margin: 0;
     padding: 20px;
 }
 
+.contact{
+background-color: #006792;
+color: white;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.contact-form input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 25px 10px 25px;
+    background-image: url(../Images/envelope.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: 5px;
+}
+
+.contact-form button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    width: 100px;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.contact-form h3{
+    font-family: 'Source Sans Pro', sans-serif;    
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter{
+    background-image: url('../Images/twitter.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../Images/facebook.svg');   
+}
+
+.social-link.github{
+    background-image: url('../Images/github.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../Images/instagram.svg');
+}
+
 .footer{
     background-color: #000;
     color: white;
@@ -197,4 +274,14 @@ margin: 0;
 
 .footer img{
     vertical-align: middle;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+
 }
