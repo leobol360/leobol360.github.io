@@ -523,6 +523,11 @@ justify-content: space-between;
     h1{
         font-size: 1.5em;
     }
+    
+    .menu{
+        width: 60vw;
+    }
+
     .hero{
         padding: 2em 1em;
     }
@@ -557,10 +562,6 @@ justify-content: space-between;
 
 @media screen and (max-width: 320px){
     
-    .menu{
-        width: 60vw;
-    }
-
     .experience{
         padding-bottom: 0;
     }
